@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f8f8f8;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.signup-container{
+    width:500px;
+    background:white;
+    padding:40px;
+}
+
+.close-btn{
+    font-size:24px;
+    cursor:pointer;
+    color:#444;
+    margin-bottom:20px;
+}
+
+.top-section{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.top-section h1{
+    font-size:42px;
+    color:#111;
+    margin-bottom:8px;
+}
+
+.top-section p{
+    font-size:20px;
+}
+
+.top-section span{
+    color:#ff5200;
+    font-weight:500;
+}
+
+.line{
+    width:50px;
+    height:3px;
+    background:#111;
+    margin-top:20px;
+}
+
+.food-image img{
+    width:100px;
+    height:10px;
+    object-fit:contain;
+     border-radius:100px;
+}
+
+.food-image img{
+    width:150px;
+    height:100px;
+    object-fit:cover;
+    border-radius:20px;
+    transition: all 0.3s ease;
+    cursor:pointer;
+}
+
+.food-image img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+form{
+    margin-top:40px;
+}
+
+
+input{
+    width:100%;
+    padding:24px 20px;
+    border:1px solid #ddd;
+    outline:none;
+    font-size:18px;
+}
+
+input:not(:last-child){
+    border-bottom:none;
+}
+
+.referral{
+    display:inline-block;
+    margin:25px 0;
+    text-decoration:none;
+    color:#5a7cff;
+    font-size:18px;
+}
+
+button{
+    width:100%;
+    padding:18px;
+    background:#ff5200;
+    color:white;
+    border:none;
+    font-size:18px;
+    font-weight:700;
+    cursor:pointer;
+    margin-bottom:15px;
+}
+
+button:hover{
+    background:#e64a00;
+}
+
+.login-link{
+    color: #ff5200;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-link:hover{
+    text-decoration:none;
+}
+.terms{
+    font-size:14px;
+    color:#555;
+    line-height:1.5;
+}
+
+.terms a{
+    text-decoration:none;
+    color:black;
+    font-weight:600;
+}
