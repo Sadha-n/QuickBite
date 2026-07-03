@@ -145,8 +145,7 @@ Also update the username inside `DBConnection.java` if required.
 
 ## 📸 Screenshots
 
-
-
+![image alt](https://github.com/Sadha-n/QuickBite/blob/c896760a5b4a08d50833cb83b2df5cade577fb76/github_quickybites.jpg)
 
 ## 👨‍💻 Developed By
 
